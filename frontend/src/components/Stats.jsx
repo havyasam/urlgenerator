@@ -30,7 +30,7 @@ export default function Stats() {
       
       const deleteUrl = async () => {
         try {
-          await axios.delete(`http://localhost:3000/url/${code}`, {
+          await axios.delete(`http://localhost:3000/api/${code}`, {
             headers: { Authorization: `Bearer ${token}` }
           });
       
@@ -371,3 +371,4 @@ export default function Stats() {
 
   )
 }
+
