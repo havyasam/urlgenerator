@@ -21,7 +21,7 @@ cd backend
 npm install
 
 create .env
-MONGO_URI=your_postgres_url
+POSTGRES_URL=your_postgres_url
 JWT_SECRET=your_secret_key
 BASE_URL=http://localhost:3000
 node app.js
