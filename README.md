@@ -1,3 +1,4 @@
+hosted project link : https://shorturl-rho-ten.vercel.app/
 A simple and efficient URL shortening service built with Node.js, Express, Postgres, and a React.js frontend.
 
 API Endpoints
